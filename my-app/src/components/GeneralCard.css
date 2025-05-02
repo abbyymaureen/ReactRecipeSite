@@ -1,0 +1,61 @@
+/* Placeholder Image */
+.card-image {
+    width: 100%;
+    height: 20rem;
+    /* Adjust this height as needed */
+    object-fit: cover;
+    /* Ensures the image fills the area without distortion */
+    object-position: center;
+    /* Centers the image */
+    display: block;
+}
+
+/* Content inside the card */
+.card-content {
+    padding: 0.9rem;
+}
+
+/* Typography */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-subtitle {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.2rem;
+}
+
+.card-category {
+    font-size: 0.8rem;
+    color: #9E9E9E;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 cards per row */
+    /* might need to change later if more cards are added */
+    gap: 0.9rem;
+    /* Space between cards */
+    padding: 0.9rem;
+    overflow-y: auto;
+    /* Make the container scrollable */
+}
+
+/* Style the Material 3 Card */
+.custom-card {
+    display: block;
+    width: 20rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
